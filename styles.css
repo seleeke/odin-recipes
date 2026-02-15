@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #50565a;
+    font-family: franklin-gothic-urw-1, franklin-gothic-urw, "FranklinGothic URW", "Open Sans", Arial, sans-serif;
+    line-height: 1.4;
+}
+
+.page-header {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+.recipe-container {
+   /* width: 604px; */
+    margin: 0 auto;
+}
+
+.recipe-row {
+    width: 605px;
+    margin: 0 auto;
+    display: block;
+}
+
+.recipe-card {
+    width: 300px;
+    display: inline;
+}
+
+.footer {
+    text-align: center;
+}
+
+.site {
+    max-width: 686px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.home-button {
+    text-align:center;
+}
+
+
+.recipe-metadata {
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding-right: 6px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.ingredient-container {
+    background: #f1f1f5;
+    border-top: 1px dashed #d2d6de;
+    border-bottom: 1px dashed #d2d6de;
+    width: 75%;
+    padding: 20px;
+    margin: 20px auto;
+}
