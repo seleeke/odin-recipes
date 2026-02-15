@@ -12,20 +12,16 @@ body {
     margin: 20px auto;
     text-align: center;
 }
-.recipe-container {
-   /* width: 604px; */
-    margin: 0 auto;
+
+.flex-recipe-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
 }
 
-.recipe-row {
-    width: 605px;
-    margin: 0 auto;
-    display: block;
-}
-
-.recipe-card {
-    width: 300px;
-    display: inline;
+.flex-item {
+    flex: initial;
+    margin: 4px;
 }
 
 .footer {
